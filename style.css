@@ -1,33 +1,11 @@
 
 /*css reset */
 
-
 body {
-	background-color;
-	font-size: 18px;
-	align-items: left;
-}
-
-
-.header, .banner, .main-content { width: 100%; }
- margin: 0 auto;  
-}
-
-.banner-text-outer {
-    position: relative;
-}
-.banner-text-inner {  
-    position: absolute;
-    top: 10px;
-}
-
-.banner-image-wrapper {
-    margin: 0 auto;
-    align-items: left;
-    max-width: 50%;
-    min-width: 100%;
-    font-size: 0;
-}
-.banner-image-wrapper img {
-    width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'hyperzeitregular', serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 22px;
+  line-height: 27px;
 }
