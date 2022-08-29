@@ -9,3 +9,13 @@ body {
   font-size: 22px;
   line-height: 27px;
 }
+
+
+#horizon {
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  margin-left: -50%;
+  margin-top: 80px;
+}
