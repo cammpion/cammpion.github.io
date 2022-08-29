@@ -9,14 +9,29 @@ body {
 }
 
 
- img {
-  position: relative;
-  top: 25px;
-  left: 25px;
+.header, .banner, .main-content { width: 100%; }
+.header { background: red;}
+.banner { background: green; }
+.main-content { background: yellow; }
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 300px;
 }
-.imgA1 {
-  z-index: 1;
+
+.banner-text-outer {
+    position: relative;
 }
-.imgB1 {
-  z-index: 3;
-}  
+.banner-text-inner {  
+    position: absolute;
+    top: 10px;
+}
+
+.banner-image-wrapper {
+    margin: 0 auto;
+    max-width: 400px;
+    min-width: 300px;
+    font-size: 0;
+}
+.banner-image-wrapper img {
+    width: 100%;
+}
