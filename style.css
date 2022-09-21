@@ -3,6 +3,7 @@
 
 body {
   width: 100%;
+  background-color: #888888; 
   box-sizing: border-box;
   font-family: 'hyperzeitregular', serif;
   -webkit-font-smoothing: antialiased;
