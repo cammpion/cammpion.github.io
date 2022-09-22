@@ -22,11 +22,11 @@ body {
 }
 
 .responsive {
-  max-width:  auto;
+  max-width:  80%;
   height: auto;
 }
 
 #responsive {
-  max-width:  auto;
+  max-width:  80%;
   height: auto;
 }
